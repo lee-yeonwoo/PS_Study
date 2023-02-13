@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
+def solution(arr):
+    answer = 0
+    for i in arr :
+        answer = answer+ i 
+    answer = answer / len(arr)
+    return answer
+
